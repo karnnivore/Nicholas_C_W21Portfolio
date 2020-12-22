@@ -18,6 +18,7 @@ module.exports = {
     github: 'https://github.com/karnnivore',
     facebook: 'https://www.facebook.com/chinsen.nick/',
     instagram: 'https://www.instagram.com/karnnivore/',
+    linkedin: 'https://www.linkedin.com/in/nick-chinsen/',
     rss: '/rss.xml',
   },
   contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/d9ae9b91-d0af-4155-988c-a4d1bc6a0945',
