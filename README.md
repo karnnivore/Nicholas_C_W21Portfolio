@@ -7,4 +7,7 @@
 <h1 align="center">
   Nick's portfolio using <a href='https://ant.design/' target='_blank'>ant-design</a>
 </h1>
-<h3 align="center"></h3>
+<h3>Hi I'm Nick</h3>
+<p>
+  My portfolio built using NodeJS, Gatsby, Ant, and React
+</p>

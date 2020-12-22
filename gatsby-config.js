@@ -16,4 +16,5 @@ module.exports = {
     description: config.siteDescription,
   },
   plugins,
+  
 };
