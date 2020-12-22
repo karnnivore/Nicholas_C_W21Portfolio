@@ -1,9 +1,9 @@
 module.exports = {
   pathPrefix: '',
-  siteUrl: 'https://rolwinreevan.com',
-  siteTitle: 'Rolwin Reevan',
-  siteDescription: 'Logbook of a software developer',
-  author: 'Rolwin Reevan',
+  siteUrl: 'https://nickchinsen.com',
+  siteTitle: 'Nick Chinsen',
+  siteDescription: 'Life of a software developer',
+  author: 'Nick Chinsen',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
   disqusScript: process.env.DISQUS_SCRIPT || 'https://rolwinreevan.disqus.com/embed.js',
@@ -15,14 +15,13 @@ module.exports = {
     tag: 'tags',
   },
   social: {
-    github: 'https://github.com/rolwin100',
-    facebook: 'https://www.facebook.com/rolwin.monteiro',
-    twitter: 'https://twitter.com/rolwin100',
-    instagram: 'https://www.instagram.com/reevan100/',
+    github: 'https://github.com/karnnivore',
+    facebook: 'https://www.facebook.com/chinsen.nick/',
+    instagram: 'https://www.instagram.com/karnnivore/',
     rss: '/rss.xml',
   },
-  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/09a3066f-c638-40db-ad59-05e4ed71e451',
-  googleAnalyticTrackingId: process.env.GA_TRACKING_ID || '',
+  contactFormUrl: process.env.CONTACT_FORM_ENDPOINT || 'https://getform.io/f/d9ae9b91-d0af-4155-988c-a4d1bc6a0945',
+  googleAnalyticTrackingId: process.env.GA_TRACKING_ID || 'UA-175451885-1',
   tags: {
     javascript: {
       name: 'javascript',
