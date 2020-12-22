@@ -6,16 +6,16 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `Hello !! My name is Rolwin Reevan Monteiro. I'm a full stack web developer who is
-    passionate about various web technologies. I like to experiment with different web
-    technologies. I have an experience of nearly 3 years working with LAMP stack, MERN stack
-    and ELK stack. Building fancy UI's just like this one that your seeing 😅 and writing blogs about tech stacks
-    is what Rolwin loves to do. Check my blog which I update every week for some Javascript and some
+  paraOne: `Hi! I'm Nick Chinsen and welcome to my portfolio website. I'm a full stack web developer who loves
+    tinkering with new technologies & stacks. I like to experiment with different web
+    technologies so I have a good understanding of what is available to solve the problem at hand. I 3 years of web development experience working with LAMP stack, 
+    MERN stack and MEAN stack. Building beautiful UI's just like this one <3, writing clean and functional code, and keeping up-to-date on design + programming trends
+    is what Nick loves to do. Check my blog which I update every week for some Javascript and some
     cool notes on web technologies.`,
   paraTwo: `Currently I work mostly with Javascript technologies like ReactJS and NodeJS. I also
     have hands on experience working with cloud infrastructures like <b>AWS/GCP</b> and have deployed applications
     keeping scalability in mind. Docker, Kubernetes, Jenkins, SonarQube are some of the cool
-    tools I use for <b>CI/ CD</b>. I'm always a learner and a self taught programmer.`,
+    tools I use for <b>CI/ CD</b>. I'm always learning every day, and becoming a better programmer.`,
 };
 
 const AboutMe = () => {
@@ -27,7 +27,7 @@ const AboutMe = () => {
           title="About"
           description={description}
           path=""
-          keywords={['Rolwin', 'Reevan', 'Monteiro', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
+          keywords={['Nick', '', 'Chinsen', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
         />
         <h1 className="titleSeparate">About Me</h1>
         <p>
@@ -41,8 +41,8 @@ const AboutMe = () => {
             img="location.png"
             height={60}
             alt="location image"
-            textH4="Born and bought up in"
-            textH3="Mangalore, KA, India"
+            textH4="Currently living in"
+            textH3="Toronto, ON, Canada"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
@@ -50,15 +50,15 @@ const AboutMe = () => {
             img="coffee.png"
             alt="coffee image"
             textH4="Love Coffee"
-            textH3="Coffee + Me = Happiness"
+            textH3="Coffee + Me = Euphoria"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="meeting.png"
             alt="meeting image"
-            textH4="Socially Awkward"
-            textH3="At times"
+            textH4="Connecting"
+            textH3="Always"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
@@ -66,15 +66,15 @@ const AboutMe = () => {
             img="motorcycle.png"
             alt="motorcycle image"
             textH4="Love Riding"
-            textH3="Biker for life"
+            textH3="Motorcycles <3"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="web.png"
             alt="web image"
-            textH4="Self Taught Programmer"
-            textH3="Thanks to the Web Resources"
+            textH4="Inquisitive Programmer"
+            textH3="Always searching for ways to innovate"
             height={60}
             width={60}
           />
@@ -83,8 +83,8 @@ const AboutMe = () => {
           <AboutTile
             img="graduation.png"
             alt="graduation image"
-            textH4="Pursued B.Tech in"
-            textH3="Computer Science"
+            textH4="George Brown College"
+            textH3="Advanced Diploma - Computer Science"
             height={60}
             width={60}
           />
