@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- 14.15.3
+install: yarn
+script: gatsby build
+deploy: 
+  provider: s3
+  access_key: $AWS_KEY
+  secret_access_key: $AWS_SECRET
+  bucket: 'nick-chinsen'
+  skip_cleanup: true
+  acl: public_read
+  local_directory: public
