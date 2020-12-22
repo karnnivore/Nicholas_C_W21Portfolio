@@ -11,3 +11,5 @@ deploy:
   skip_cleanup: true
   acl: public_read
   local_directory: public
+  on:
+    all_branches: true
