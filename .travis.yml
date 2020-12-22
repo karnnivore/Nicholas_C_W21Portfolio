@@ -9,6 +9,7 @@ deploy:
   secret_access_key: $AWS_SECRET
   bucket: 'nick-chinsen'
   skip_cleanup: true
+  region: us-east-2
   acl: public_read
   local_directory: public
   on:
