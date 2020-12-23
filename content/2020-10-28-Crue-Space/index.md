@@ -1,7 +1,7 @@
 ---
 title: "Crue Space - Remote Education Platform"
 path: blog/hello-world-rolwins-first-blog
-tags: [javascript, html,css, figma, aws, wordpress]
+tags: [javascript, html,css]
 cover: ./crueTv.jpg
 date: 2020-10-28
 excerpt: I recently created an online education platform geared towards youths wanting to learn production/editing skills, for Crue TV in partnership with the Red Cross. 

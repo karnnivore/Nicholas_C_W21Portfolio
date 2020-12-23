@@ -1,6 +1,6 @@
 ---
 title: Portfolio Website - Showcase of my work built in ReactJS
-tags: [ reactjs, javascript, gatsby, aws, travis, github ]
+tags: [ reactjs, javascript, gatsby ]
 date: 2020-05-15T05:25:44.226Z
 path: blog/center-align-things-with-css
 cover: ./flexbox-css.jpg

@@ -9,7 +9,7 @@ const pageText = {
   paraOne: `Hi! I'm Nick Chinsen and welcome to my portfolio website. I'm a full stack web developer who loves
     tinkering with new technologies & stacks. I like to experiment with different web
     technologies so I have a good understanding of what is available to solve the problem at hand. I 3 years of web development experience working with LAMP stack, 
-    MERN stack and MEAN stack. Building beautiful UI's just like this one <3, writing clean and functional code, and keeping up-to-date on design + programming trends
+    MERN stack and MEAN stack. Building beautiful UI's just like this one, writing clean and functional code, and keeping up-to-date on design + programming trends
     is what Nick loves to do. Check my blog which I update every week for some Javascript and some
     cool notes on web technologies.`,
   paraTwo: `Currently I work mostly with Javascript technologies like ReactJS and NodeJS. I also
@@ -66,7 +66,7 @@ const AboutMe = () => {
             img="motorcycle.png"
             alt="motorcycle image"
             textH4="Love Riding"
-            textH3="Motorcycles <3"
+            textH3="Motorcycles"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>

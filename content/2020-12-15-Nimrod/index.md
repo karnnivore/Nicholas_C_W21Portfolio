@@ -1,6 +1,6 @@
 ---
 title: Nimrod - Mobile Navigation Game built with React-Native
-tags: [ reactNative, javascript, github ]
+tags: [ javascript ]
 date: 2020-05-21T05:25:44.226Z
 path: blog/code-splitting-in-react
 cover: ./Nimrod.jpg
