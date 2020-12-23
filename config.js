@@ -13,6 +13,7 @@ module.exports = {
     contact: 'contact',
     resume: 'resume',
     tag: 'tags',
+    portfolio: 'portfolio',
   },
   social: {
     github: 'https://github.com/karnnivore',

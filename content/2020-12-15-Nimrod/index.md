@@ -2,7 +2,8 @@
 title: Nimrod - Mobile Navigation Game built with React-Native
 tags: [ javascript ]
 date: 2020-05-21T05:25:44.226Z
-path: blog/code-splitting-in-react
+#path: blog/code-splitting-in-react
+path: portfolio/nimrod
 cover: ./Nimrod.jpg
 excerpt: Final project for Mobile Application Development - George Brown College - Computer Science
 ---

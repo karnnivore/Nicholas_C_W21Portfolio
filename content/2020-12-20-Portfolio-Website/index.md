@@ -2,7 +2,8 @@
 title: Portfolio Website - Showcase of my work built in ReactJS
 tags: [ reactjs, javascript, gatsby ]
 date: 2020-05-15T05:25:44.226Z
-path: blog/center-align-things-with-css
+#path: blog/center-align-things-with-css
+path: portfolio/nick-chinsen
 cover: ./flexbox-css.jpg
 excerpt: My personal website built using, ReactJS, Gatsby, AWS, and using a Travis Pipeline for CI.  
 ---

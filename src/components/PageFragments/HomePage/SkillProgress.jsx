@@ -31,7 +31,7 @@ const SkillsProgress = () => (
           text="Python"
         />
         <ProgressBar
-          percent={75}
+          percent={70}
           text="PHP"
         />
       </Col>
@@ -135,7 +135,7 @@ const SkillsProgress = () => (
           text="Git & GitHub"
         />
         <ProgressBar
-          percent={65}
+          percent={80}
           text="Travis CI"
         />
         <ProgressBar
