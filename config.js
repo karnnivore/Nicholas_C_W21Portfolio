@@ -69,6 +69,30 @@ module.exports = {
       description: 'A general purpose programming language that is widely used for developing various applications.',
       color: '#f9c646',
     },
-
+    figma: {
+      name: 'figma',
+      description: 'A collaborate interface of design tools, allowing designers to create better products.',
+      color: '#6f309f',
+    },
+    github: {
+      name: 'github',
+      description: 'Hosting for software development and version control using Git.',
+      color: '#257acc',
+    },
+    reactNative: {
+      name: 'react-native',
+      description: 'Open-source mobile application framework used to develop applications for a variety of platforms.',
+      color: '#eb428e',
+    },
+    aws: {
+      name: 'aws',
+      description: 'Provider of cloud computing platforms and APIs on a pay-as-you-go basis.',
+      color: '#dd3431',
+    },
+    travis: {
+      name: 'travis',
+      description: 'Open-source continuous integration service used to build and test software projects hosted on GitHub and Bitbucket',
+      color: '#43ace0'
+    }
   },
 };
