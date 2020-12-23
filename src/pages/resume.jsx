@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import { Document, Page } from 'react-pdf';
-import { Button, Row, Col } from 'antd';
+import { Button, Row, Col, Layout } from 'antd';
 import SEO from '../components/Seo';
+import Header from '../components/PageLayout/Header';
+import SidebarWrapper from '../components/PageLayout/Sidebar';
+
 
 export default class Resume extends Component {
   constructor() {
@@ -27,9 +30,9 @@ export default class Resume extends Component {
       }
       return 1;
     };
-
     return (
-      <div>
+      <Layout className="outerPadding">
+      <Layout className="container">
         <SEO
           title="Resume"
           description="My resume consists of my biodata of experience. You can hire me if you feel
@@ -37,21 +40,23 @@ export default class Resume extends Component {
           in the way of building various web applications."
           path="resume"
         />
+        <Header/>
+        <SidebarWrapper>
         <Document
-          file="../resume.pdf"
+          file="../Nick_Chinsen_Resume.pdf"
           onLoadSuccess={this.onDocumentLoadSuccess}
         >
-          <Page pageNumber={pageNumber} />
+          <Page 
+            pageNumber={pageNumber}
+            style={{
+              backgroundColor: 'tomato',
+              width: 50,
+            }}
+          />
         </Document>
-        <Row justify="center" style={{ background: 'lightslategray' }}>
-          <Col span={2}>
-            <p>{`Page ${pageNumber} of ${numPages}`}</p>
-          </Col>
-          <Col span={2}>
-            <Button type="primary" onClick={pageToggle}>{pageNumber === 1 ? 'Next Page' : 'Previous Page'}</Button>
-          </Col>
-        </Row>
-      </div>
+        </SidebarWrapper>
+      </Layout>
+      </Layout>
     );
   }
 }
