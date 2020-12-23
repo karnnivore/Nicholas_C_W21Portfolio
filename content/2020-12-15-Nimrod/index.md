@@ -1,10 +1,10 @@
 ---
-title: Code splitting in react with React.lazy() and Suspense
-tags: [ html, css, reactjs ]
+title: Nimrod - Mobile Navigation Game built with React-Native
+tags: [ react-native, redux, javascript, github ]
 date: 2020-05-21T05:25:44.226Z
 path: blog/code-splitting-in-react
-cover: ./codesplitting.png
-excerpt: Suppose the bundle size of your project is very huge and you don't want to load everything at once during the initial render you can use code splitting along with React to improve the performance and load time of your application.
+cover: ./Nimrod.jpg
+excerpt: Final project for Mobile Application Development - George Brown College - Computer Science
 ---
 
 Code splitting is an awesome feature of webpack that can be used to split your code into smaller bundles and can be loaded when necessary or in parallel. If this feature is used properly it can have a very huge impact on the performance improvement of your application. You can look more about code splitting [here](https://webpack.js.org/guides/code-splitting/) in the official webpack documentation.
