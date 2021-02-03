@@ -26,12 +26,10 @@ const DomContent = () => (
           <span>Chinsen</span>
         </h2>
       </div>
-      <div className={`${style.badge} ${style.badgeGray}`}>Web Developer & Designer</div>
+      <div className={`${style.badge} ${style.badgeGray}`}>Full Stack Developer</div>
       <div className="centerAlign box">
-        <a href={facebook} target="_blank" label="button" rel="noopener noreferrer"><FA name="facebook-f" /></a>
         <a href={linkedin} target="_blank" label="button" rel="noopener noreferrer"><FA name="linkedin" /></a>
         <a href={github} target="_blank" label="button" rel="noopener noreferrer"><FA name="github" /></a>
-        <a href={instagram} target="_blank" label="button" rel="noopener noreferrer"><FA name="instagram" /></a>
       </div>
       <ul className={`box ${style.badge} contactBlock`}>
         <li className={`${style.contactBlockItem}`}>

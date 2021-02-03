@@ -59,7 +59,7 @@ const SkillsProgress = () => (
         />
       </Col>
     </Row>
-    <h2>Build & Frameworks </h2>
+    <h2>Library & Frameworks </h2>
     <Row gutter={[20,20]}>
     <Col xs={24} sm={24} md={12}>
       <ProgressBar
@@ -75,85 +75,10 @@ const SkillsProgress = () => (
         text="Node.JS"
       />
       <ProgressBar
-        percent={85}
-        text="Springboot"
+        percent={50}
+        text="Gatsby"
       />
       </Col>
-      <Col xs={24} sm={24} md={12}>
-      <ProgressBar
-        percent={90}
-        text="BootStrap"
-      />
-      <ProgressBar
-        percent={75}
-        text="Thymeleaf"
-      />
-      <ProgressBar
-        percent={75}
-        text="Apache Maven"
-      />
-      <ProgressBar
-        percent={70}
-        text="Gradle"
-      />
-      </Col>
-    </Row>
-    
-    <h2>Operating Systems</h2>
-    <Row gutter={[20, 20]}>
-      <Col xs={24} sm={24} md={12}>
-        <ProgressBar
-          percent={95}
-          text="Windows"
-        />
-        <ProgressBar
-          percent={85}
-          text="Mac"
-        />
-        <ProgressBar
-          percent={75}
-          text="Linux"
-        />
-      </Col>
-      <Col xs={24} sm={24} md={12}>
-        <ProgressBar
-          percent={80}
-          text="Android"
-        />
-        <ProgressBar
-          percent={70}
-          text="iOS"
-        />
-      </Col>
-    </Row>
-    
-    <Row gutter={[20, 20]}>
-      <Col xs={24} sm={24} md={12}>
-      <h2>CI/CD & VCS</h2>
-        <ProgressBar
-          percent={90}
-          text="Git & GitHub"
-        />
-        <ProgressBar
-          percent={80}
-          text="Travis CI"
-        />
-        <ProgressBar
-          percent={60}
-          text="Jenkins"
-        />
-      </Col>
-      <Col xs={24} sm={24} md={12}>
-      <h2>Open-Source Web Dev Platforms</h2>
-        <ProgressBar
-          percent={90}
-          text="WebFlow"
-        />
-        <ProgressBar
-          percent={90}
-          text="WordPress"
-        />
-    </Col>
     </Row>
   </div>
 );

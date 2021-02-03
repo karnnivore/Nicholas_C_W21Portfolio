@@ -6,15 +6,11 @@ import { stripTags, domHtml } from '../../../utils/stripTags';
 import SEO from '../../Seo';
 
 const pageText = {
-  paraOne: `Hi! I'm <b>Nick Chinsen</b> and welcome to my portfolio website. I'm a <b>full stack web developer</b> who loves
-    tinkering with new technologies & stacks. I like to experiment with different web
-    technologies so I have a good understanding of what is available to solve the problem at hand. I <b>3 years of web development experience</b> working with MERN stack, 
-    MEAN stack and LAMP stack. Building <b>beautiful UI's, writing clean + functional code</b>, and keeping up-to-date on design + programming trends
-    is what Nick loves to do. Check out my portfolio where I showcase <b><a href="/portfolio">some of my work with web technologies.</a></b>`,
-  paraTwo: `Currently I work mostly with Javascript technologies like <b>ReactJS & NodeJS</b>. I also
-    have hands on experience working with cloud infrastructures like <b>AWS/GCP</b> and have deployed applications
-    keeping scalability in mind. <b>Travis, Jenkins</b>, Docker, SonarQube are some of the cool
-    tools I use for <b>CI/ CD</b>. I'm always learning every day, and becoming a better programmer.`,
+  paraOne: `Hi! I'm <b>Nick Chinsen</b> and this is my website. I'm a <b>full stack developer</b> who loves to code and dive deep into 
+    frameworks & technologies. I'm comfortable with a variety of web technologies like <b>JavaScript, HTML, CSS, Node.JS and React</b>`,
+  paraTwo: `I'm currently working as a Full Stack Developer Co-Op student with Axcys Finishing, in addition to working part-time
+    at BMO, and finishing my last semester of school. I love coding, and I'm always looking for new projects so don't be afraid to
+    reach out :)`,
 };
 
 const AboutMe = () => {
@@ -29,9 +25,9 @@ const AboutMe = () => {
           keywords={['Nick', '', 'Chinsen', 'FullStack developer', 'Javascript', 'ReactJS', 'NodeJS', 'Gatsby']}
         />
         <h1 className="titleSeparate">About Me</h1>
-        <p dangerouslySetInnerHTML={domHtml(pageText.paraOne)}/>
+        <p dangerouslySetInnerHTML={domHtml(pageText.paraOne)} style={{fontSize: 20}}/>
           
-        <p dangerouslySetInnerHTML={domHtml(pageText.paraTwo)} />
+        <p dangerouslySetInnerHTML={domHtml(pageText.paraTwo)} style={{fontSize: 20}}/>
       </div>
       <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>
@@ -40,39 +36,39 @@ const AboutMe = () => {
             height={60}
             alt="location image"
             textH4="Currently living in"
-            textH3="Toronto, ON, Canada"
+            textH3="Toronto - Canada"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="coffee.png"
             alt="coffee image"
-            textH4="Love Coffee"
-            textH3="Coffee + Me = Happy"
+            textH4="I Love Coffee"
+            textH3="I Make Mean Pour Overs"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="meeting.png"
             alt="meeting image"
-            textH4="Interpersonal Skills"
-            textH3="Excellent"
+            textH4="I'm a banker & Developer"
+            textH3="Improving Daily"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="motorcycle.png"
             alt="motorcycle image"
-            textH4="Love Riding"
-            textH3="Motorcycles"
+            textH4="I love my hobbies"
+            textH3="Motorcycles are one of them"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="web.png"
             alt="web image"
-            textH4="Inquisitive Programmer"
-            textH3="Always searching for ways to innovate"
+            textH4="I'm an Inquisitive Programmer"
+            textH3="Learning Never Stops"
             height={60}
             width={60}
           />
@@ -82,7 +78,7 @@ const AboutMe = () => {
             img="graduation.png"
             alt="graduation image"
             textH4="George Brown College"
-            textH3="Advanced Diploma - Computer Science"
+            textH3="Final Year - Computer Science"
             height={60}
             width={60}
           />
