@@ -43,16 +43,16 @@ const AboutMe = () => {
           <AboutTile
             img="coffee.png"
             alt="coffee image"
-            textH4="I Love Coffee"
-            textH3="I Make Mean Pour Overs"
+            textH4="I love coffee"
+            textH3="And make a mean pour over"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
           <AboutTile
             img="meeting.png"
             alt="meeting image"
-            textH4="I'm a banker & Developer"
-            textH3="Improving Daily"
+            textH4="I'm a banker & developer"
+            textH3="Improving daily"
           />
         </Col>
         <Col xs={24} sm={24} md={12} lg={8}>
@@ -67,8 +67,8 @@ const AboutMe = () => {
           <AboutTile
             img="web.png"
             alt="web image"
-            textH4="I'm an Inquisitive Programmer"
-            textH3="Learning Never Stops"
+            textH4="I'm an inquisitive programmer"
+            textH3="Who never stops learning"
             height={60}
             width={60}
           />
@@ -78,7 +78,7 @@ const AboutMe = () => {
             img="graduation.png"
             alt="graduation image"
             textH4="George Brown College"
-            textH3="Final Year - Computer Science"
+            textH3="Final year - Computer Science"
             height={60}
             width={60}
           />
