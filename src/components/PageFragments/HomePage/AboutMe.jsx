@@ -7,7 +7,7 @@ import SEO from '../../Seo';
 
 const pageText = {
   paraOne: `Hi! I'm <b>Nick Chinsen</b> and this is my website. I'm a <b>full stack developer</b> who loves to code and dive deep into 
-    frameworks & technologies. I'm comfortable with a variety of web technologies like <b>JavaScript, HTML, CSS, Node.JS and React</b>`,
+    frameworks & technologies. I'm comfortable with a variety of web technologies like <b>JavaScript, HTML, CSS, Angular, React, Node.JS, .NET Core, Spring, SQL, Mongo, and Web APIs</b>`,
   paraTwo: `I'm currently working as a Full Stack Developer CO-OP student with Axcys Finishing, in addition to working part-time
     at BMO, and finishing my last semester of school. I love coding, and I'm always looking for new projects so don't be afraid to
     reach out :)`,
