@@ -6,7 +6,7 @@ module.exports = {
   author: 'Nick Chinsen',
   postsForArchivePage: 3,
   defaultLanguage: 'en',
-  disqusScript: process.env.DISQUS_SCRIPT || 'https://rolwinreevan.disqus.com/embed.js',
+  disqusScript: process.env.DISQUS_SCRIPT,
   pages: {
     home: '/',
     blog: 'blog',
@@ -69,6 +69,11 @@ module.exports = {
       name: 'python',
       description: 'A general purpose programming language that is widely used for developing various applications.',
       color: '#f9c646',
+    },
+    fullstack: {
+      name: 'fullstack',
+      description: 'Full stack development involves creating both the front and back of an application and integrating them fluidly',
+      color: '#dd3431',
     }
   },
 };
