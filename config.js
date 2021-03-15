@@ -74,6 +74,21 @@ module.exports = {
       name: 'fullstack',
       description: 'Full stack development involves creating both the front and back of an application and integrating them fluidly',
       color: '#dd3431',
+    },
+    school: {
+      name: 'school',
+      description: 'School projects that were completed',
+      color: '#f9c646'
+    },
+    capstone: {
+      name: 'capstone',
+      description: 'Final year capstone project',
+      color: '#f9c646'
+    },
+    work: {
+      name: 'work',
+      description: 'Work projects that I have completed',
+      color: '#dd3431'
     }
   },
 };

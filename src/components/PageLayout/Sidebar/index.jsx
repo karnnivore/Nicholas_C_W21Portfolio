@@ -52,6 +52,9 @@ const DomContent = () => (
       <div className={style.resumeDownload}>
         <a href="../Nick_Chinsen_Resume.pdf" download target="_blank">Download CV</a>
       </div>
+      <div className={style.resumeDownload} style={{marginTop: 40}}>
+        <a href="../NickCoverLetter.pdf" download target="_blank">Cover Letter</a>
+      </div>
     </div>
   </aside>
 );

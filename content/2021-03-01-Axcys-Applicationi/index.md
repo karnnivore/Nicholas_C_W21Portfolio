@@ -1,6 +1,6 @@
 ---
 title: Axcys CO-OP - Retailer application
-tags: [ reactjs, fullstack, javascript, html, css]
+tags: [ work, reactjs, fullstack, javascript, html, css]
 date: 2021-03-02
 #path: blog/center-align-things-with-css
 path: portfolio/axcys-coop

@@ -1,7 +1,7 @@
 ---
 title: Portfolio Website - Showcase of my work built in ReactJS
-tags: [ reactjs, javascript, gatsby ]
-date: 2020-12-22
+tags: [ school,reactjs, javascript, gatsby ]
+date: 2021-03-14
 #path: blog/center-align-things-with-css
 path: portfolio/nick-chinsen
 cover: ./reactjs.jpg
