@@ -5,7 +5,8 @@ cache:
   directories:
   - node_modules
 before_install:
-   - apt-get make nasm autoconf automake libtool dpkg pkgconfig libpng libpng-dev g++
+   - sudo apt-get update
+   - sudo apt-get make nasm autoconf automake libtool dpkg pkgconfig libpng libpng-dev g++
 install: yarn
 script: gatsby build
 deploy: 
