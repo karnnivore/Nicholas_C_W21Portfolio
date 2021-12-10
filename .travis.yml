@@ -5,8 +5,7 @@ cache:
   directories:
   - node_modules
 before_install:
-   - sudo apt-get update
-   - sudo apt-get nasm
+   - sudo apt-get -y nasm
 install: yarn
 script: gatsby build
 deploy: 
