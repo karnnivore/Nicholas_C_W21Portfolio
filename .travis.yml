@@ -4,7 +4,7 @@ node_js:
 cache:
   directories:
   - node_modules
-before_script:
+before_install:
    - apk add make nasm autoconf automake libtool dpkg pkgconfig libpng libpng-dev g++
 install: yarn
 script: gatsby build
