@@ -6,7 +6,7 @@ cache:
   - node_modules
 before_install:
    - sudo apt-get update
-   - sudo apt-get make nasm autoconf automake libtool dpkg pkgconfig libpng libpng-dev g++
+   - sudo apt-get nasm
 install: yarn
 script: gatsby build
 deploy: 
