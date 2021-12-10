@@ -39,6 +39,7 @@ const AboutMe = () => {
           <strong>Deans List: </strong> Spring 2019 & Winter 2020<br/>
           <strong>Advanced Diploma: </strong> Expected April 2021
         </p> */}
+        {/*  */}
       </div>
       <Row gutter={[20, 20]}>
         <Col xs={24} sm={24} md={12} lg={8}>
