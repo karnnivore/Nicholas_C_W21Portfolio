@@ -4,7 +4,9 @@ node_js:
 cache:
   directories:
   - node_modules
-install: brew install nasm; yarn
+before_script:
+   - apk add make nasm autoconf automake libtool dpkg pkgconfig libpng libpng-dev g++
+install: yarn
 script: gatsby build
 deploy: 
   provider: s3
